@@ -1,0 +1,132 @@
+body {
+
+}
+
+textarea, select, input, button { outline: none; }
+
+.login-body{
+    background-image: url(img/login-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 252px;
+    height: auto;
+}
+
+.signup-logo{
+    margin-top: 30px;
+    width: 252px;
+    height: auto;
+}
+
+.login-t-boxes {
+    width: 70%;
+    height: auto;
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-size: 14px;
+}
+
+.form-wrapper{
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.form-wrapper input{
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+.signup-form input{
+    margin-top: 40px;
+}
+
+.login-t-boxes::placeholder {
+    color: white;
+}
+
+.login-btn{
+    height: 37px;
+    width: 70%;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    border: 0px;
+    border-radius: 125px;
+    margin-top: 40px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1584eb+0,48a0f2+100 */
+background: #1584eb; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #1584eb 0%, #48a0f2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #1584eb 0%,#48a0f2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #1584eb 0%,#48a0f2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1584eb', endColorstr='#48a0f2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+-webkit-box-shadow: 10px 10px 30px 0px rgba(15,121,153,1);
+-moz-box-shadow: 10px 10px 30px 0px rgba(15,121,153,1);
+box-shadow: 10px 10px 30px 0px rgba(15,121,153,1);
+}
+
+.signup-btn{
+    height: 35px;
+    width: 50%;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    border: 0px;
+    border-radius: 125px;
+    margin-top: 20px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00a76e+0,00e48e+100 */
+background: #00a76e; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #00a76e 0%, #00e48e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #00a76e 0%,#00e48e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #00a76e 0%,#00e48e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a76e', endColorstr='#00e48e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(0,107,68,1);
+-moz-box-shadow: 10px 10px 30px 0px rgba(0,107,68,1);
+box-shadow: 10px 10px 30px 0px rgba(0,107,68,1);
+}
+
+.next-btn{
+    height: 37px;
+    width: 70%;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    border: 0px;
+    border-radius: 125px;
+    margin-top: 40px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00a76e+0,00e48e+100 */
+background: #00a76e; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #00a76e 0%, #00e48e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #00a76e 0%,#00e48e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #00a76e 0%,#00e48e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a76e', endColorstr='#00e48e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(0,107,68,1);
+-moz-box-shadow: 10px 10px 30px 0px rgba(0,107,68,1);
+box-shadow: 10px 10px 30px 0px rgba(0,107,68,1);
+}
+
+.forgot-pass{
+    text-align: center;
+    font-size: 11px;
+    margin-top: 20px;
+    color: white;
+    z-index: 999px;
+}
+
+.forgot-pass:hover{
+    text-decoration: underline;
+}
